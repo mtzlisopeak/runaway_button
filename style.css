@@ -19,7 +19,7 @@
 
 body {
     background-color: #ffe4e9;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container {
