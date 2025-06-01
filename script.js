@@ -24,6 +24,7 @@ const resposta = document.querySelector("#resposta")
 botaoSim.addEventListener("click", function(e) {
   const resposta = document.querySelector("#resposta");
   resposta.style.display = "block";
+  botaoFug.style.display = "None";
 
   // Garante que o browser aplique o fade corretamente
   setTimeout(() => {
